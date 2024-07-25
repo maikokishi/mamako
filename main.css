@@ -1,0 +1,89 @@
+/* css/main.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0ef;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d0eaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #84909b;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3a8daa;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0f5779;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #84909b;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    background-color: #c9c9c4;
+    margin-left: 10px;
+}
+
+li button .fas {
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #4e4449;
+}
